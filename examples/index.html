@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Liquibase PrismJS Example</title>
+
+  <!-- <link rel="stylesheet" href="../node_modules/prismjs/themes/prism.css"> -->
+  <link rel="stylesheet" href="../node_modules/prismjs/themes/prism-tomorrow.css">
+</head>
+
+<body>
+
+<pre><code class="language-bash">$ liquibase --changeLogFile=./my/directory/changelog.xml --username=myUsername --password=myPassword --url=myUrl --driver=myJdbcDriverClassName
+$ liquibase --classpath={value} --contexts={value} --defaultSchemaName={schema} --databaseClass={custom.DatabaseImpl} --defaultsFile={/path/to/file} --includeSystemClasspath={true or false} --promptForNonLocalDatabase={true or false} --currentDateTimeFunction={value} --logLevel={level} --logFile={filename} --liquibaseProLicenseKey={licenKey} --propertyProviderClass={properties.ClassName}
+
+$ liquibase update && liquibase updateSQL && liquibase futureRollbackSQL && liquibase updateTestingRollback && liquibase generateChangeLog && liquibase status && liquibase validate && liquibase changelogSync && liquibase changelogSyncSQL && liquibase markNextChangeSetRan && liquibase listLocks && liquibase releaseLocks && liquibase dropAll && liquibase clearCheckSums &&
+
+$ liquibase updateCount 21 && liquibase updateCountSQL 68 && liquibase rollback liquid && liquibase rollbackToDate 2020-01-17T16:25:13.864Z && liquibase rollbackCount 9 && liquibase rollbackSQL remarkable && liquibase rollbackToDateSQL 2020-01-17T16:25:13.864Z && liquibase rollbackCountSQL 30 && liquibase dbDoc ./my/directory && liquibase tag cowboy && liquibase tagExists summer && liquibase diff --referenceUsername=consider --referencePassword=password --referenceUrl=myUrl && liquibase diffChangeLog --referenceUsername=consider --referencePassword=password --referenceUrl=myUrl && liquibase diff --referenceUsername=consider --referencePassword=password --referenceUrl=myUrl --referenceDriver={value} --referenceDefaultSchemaName={value} && code>
+</pre></code>
+
+  <pre><code class="language-bash">$ liquibase --changeLogFile=./my/directory/changelog.xml --username=myUsername --password=myPassword --url=myUrl --driver=myJdbcDriverClassName
+$ liquibase --classpath={value} --contexts={value} --defaultSchemaName={schema} --databaseClass={custom.DatabaseImpl} --defaultsFile={/path/to/file} --includeSystemClasspath={true or false} --promptForNonLocalDatabase={true or false} --currentDateTimeFunction={value} --logLevel={level} --logFile={filename} --liquibaseProLicenseKey={licenKey} --propertyProviderClass={properties.ClassName}
+
+$ liquibase update
+$ liquibase updateSQL
+$ liquibase futureRollbackSQL
+$ liquibase updateTestingRollback
+$ liquibase generateChangeLog
+$ liquibase status
+$ liquibase validate
+$ liquibase changelogSync
+$ liquibase changelogSyncSQL
+$ liquibase markNextChangeSetRan
+$ liquibase listLocks
+$ liquibase releaseLocks
+$ liquibase dropAll
+$ liquibase clearCheckSums
+
+$ liquibase updateCount 21
+$ liquibase updateCountSQL 68
+$ liquibase rollback liquid
+$ liquibase rollbackToDate 2020-01-17T16:25:13.864Z
+$ liquibase rollbackCount 9
+$ liquibase rollbackSQL remarkable
+$ liquibase rollbackToDateSQL 2020-01-17T16:25:13.864Z
+$ liquibase rollbackCountSQL 30
+$ liquibase dbDoc ./my/directory
+$ liquibase tag cowboy
+$ liquibase tagExists summer
+$ liquibase diff --referenceUsername=consider --referencePassword=password --referenceUrl=myUrl
+$ liquibase diffChangeLog --referenceUsername=consider --referencePassword=password --referenceUrl=myUrl
+$ liquibase diff --referenceUsername=consider --referencePassword=password --referenceUrl=myUrl --referenceDriver={value} --referenceDefaultSchemaName={value}
+</code></pre>
+
+  <script src="../node_modules/prismjs/prism.js"></script>
+  <script src="../node_modules/prismjs/components/prism-bash.js"></script>
+  <script src="../dist/prism-liquibase.umd.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+export const LIQUIBASE_OPTIONAL_PARAMETERS = [
+  "--propertyProviderClass",
+  "--promptForNonLocalDatabase",
+  "--logLevel",
+  "--logFile",
+  "--liquibaseProLicenseKey",
+  "--includeSystemClasspath",
+  "--help",
+  "--exportDataDir",
+  "--defaultsFile",
+  "--defaultSchemaName",
+  "--databaseClass",
+  "--currentDateTimeFunction",
+  "--contexts",
+  "--classpath",
+];

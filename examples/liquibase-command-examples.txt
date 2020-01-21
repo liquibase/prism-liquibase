@@ -1,0 +1,36 @@
+liquibase [options] [command] [command parameters]
+liquibase [command] 
+
+$ liquibase --changeLogFile=./my/directory/changelog.xml --username=myUsername --password=myPassword --url=myUrl --driver=myJdbcDriverClassName 
+
+$ liquibase update
+$ liquibase updateSQL
+$ liquibase futureRollbackSQL
+$ liquibase updateTestingRollback
+$ liquibase generateChangeLog
+$ liquibase status
+$ liquibase validate
+$ liquibase changelogSync
+$ liquibase changelogSyncSQL
+$ liquibase markNextChangeSetRan
+$ liquibase listLocks
+$ liquibase releaseLocks
+$ liquibase dropAll
+$ liquibase clearCheckSums
+
+$ liquibase updateCount 21
+$ liquibase updateCountSQL 68
+$ liquibase rollback liquid
+$ liquibase rollbackToDate 2020-01-17T16:25:13.864Z
+$ liquibase rollbackCount 9
+$ liquibase rollbackSQL remarkable
+$ liquibase rollbackToDateSQL 2020-01-17T16:25:13.864Z
+$ liquibase rollbackCountSQL 30
+$ liquibase dbDoc ./my/directory
+$ liquibase tag cowboy
+$ liquibase tagExists summer
+
+$ liquibase diff --referenceUsername=consider --referencePassword=password --referenceUrl=myUrl
+$ liquibase diffChangeLog --referenceUsername=consider --referencePassword=password --referenceUrl=myUrl
+
+$ liquibase --classpath=<value> --contexts=<value> --defaultSchemaName=<schema> --databaseClass=<custom.DatabaseImpl> --defaultsFile=</path/to/file> --includeSystemClasspath=<true or false> --promptForNonLocalDatabase=<true or false> --currentDateTimeFunction=<value> --logLevel=<level> --logFile=<filename> --liquibaseProLicenseKey=<licenKey> --propertyProviderClass=<properties.ClassName> 
