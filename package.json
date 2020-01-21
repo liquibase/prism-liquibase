@@ -1,8 +1,17 @@
 {
   "name": "prism-liquibase",
-  "version": "0.0.0",
-  "description": "",
-  "keywords": [],
+  "version": "0.0.1",
+  "description": "Bash Language Extension for tokenizing Liquibase CLI command keywords.",
+  "keywords": [
+    "prism",
+    "prismjs",
+    "syntax",
+    "highlighting",
+    "tokenize",
+    "liquibase",
+    "cli",
+    "command"
+  ],
   "main": "dist/prism-liquibase.umd.js",
   "typings": "dist/types/prism-liquibase.d.ts",
   "files": [
