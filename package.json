@@ -1,6 +1,6 @@
 {
   "name": "prism-liquibase",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Bash Language Extension for tokenizing Liquibase CLI command keywords.",
   "keywords": [
     "prism",
@@ -20,7 +20,7 @@
   "author": "Taylor Buckner <taylora.buckner@gmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/liquibase/prism-liquibase"
   },
   "license": "Apache 2.0",
   "scripts": {
