@@ -6,7 +6,7 @@ export const LIQUIBASE_OPTIONAL_PARAMETERS = [
   "--liquibaseProLicenseKey",
   "--includeSystemClasspath",
   "--help",
-  "--exportDataDir",
+  "--dataOutputDirectory",
   "--defaultsFile",
   "--defaultSchemaName",
   "--databaseClass",

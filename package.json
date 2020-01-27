@@ -1,6 +1,6 @@
 {
   "name": "prism-liquibase",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bash Language Extension for tokenizing Liquibase CLI command keywords.",
   "keywords": [
     "prism",
